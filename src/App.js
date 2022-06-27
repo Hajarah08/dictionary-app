@@ -1,13 +1,20 @@
-
+import books from "./books.png"
+import Dictionary from "./Dictionary";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <div className="container">
       <header className="App-header">
-        Hello World
-        
+        <img src= {books} className="App-logo img-fluid text-center" alt="logo" />
+
       </header>
+      <Dictionary />
+      <footer>
+        Coded by Hajarah
+      </footer>
+      </div>
     </div>
   );
 }
