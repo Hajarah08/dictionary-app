@@ -14,7 +14,10 @@ function App() {
           />
         </header>
         <Dictionary defaultKeyword="Shopping" />
-        <footer>Coded by Hajarah</footer>
+        <footer>
+          Coded by Hajarah and open-source code on{" "}
+          <a href="https://app.netlify.com/sites/fluffy-lollipop-286547/overview"> netlify</a>
+        </footer>
       </div>
     </div>
   );
